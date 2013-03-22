@@ -1,0 +1,10 @@
+/.idea
+#*#
+~*
+*.jar
+*.class
+/target
+/lib
+/classes
+/checkouts
+/log
