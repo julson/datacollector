@@ -12,5 +12,11 @@ Create the necessary tables and column families from the HBase shell
 $ ./hbase shell
 hbase(main):001:0> create 'events', {NAME => 'event'}, {NAME => 'props'}
 ```
-Navigate to the project directory and run `mvn tomcat7:run` to launch
-an embedded Tomcat server for development.
+
+Check out the project and launch an embedded Tomcat server
+
+```
+git clone git://github.com/julson/datacollector.git
+cd ./datacollector
+mvn tomcat7:run
+```
